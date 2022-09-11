@@ -1,29 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import {Image} from "./components/Image";
+import {UserTable} from "./components/UserTable";
 
 function App() {
   return (
     <div className="App">
-      <table cellSpacing="15">
-        <tr>
-          <td>
-            <Image/>
-          </td>
-          <td>
-            <h1>Максим Фёдоров 2</h1>
-            <p><em>Я студент 1 курса <strong>магистратуры</strong></em></p>
-            <p><em>Я учусь программировать</em></p>
-          </td>
-        </tr>
-      </table>
-      <hr/>
-      <h2>мои социальные сети</h2>
-      <ul>
-        <li><a href="https://vk.com/flame_17" target="_blank">в контакте</a></li>
-        <li><a href="https://vk.com/flame_17" target="_blank">в контакте</a></li>
-      </ul>
-      <hr/>
+        <UserTable />
+        {/**/}
+        <h2>мои социальные сети</h2>
+        <ul>
+            <li><a href="https://vk.com/flame_17" target="_blank">в контакте</a></li>
+            <li><a href="https://vk.com/flame_17" target="_blank">в контакте</a></li>
+        </ul>
+        <hr/>
+      {/*  */}
       <h2>мои хобби</h2>
       <ol>
         <li>плавание</li>
@@ -32,7 +21,8 @@ function App() {
         <li>слушать музыку</li>
       </ol>
       <hr/>
-      <h2>Опыт в плавание</h2>
+        {/**/}
+        <h2>Опыт в плавание</h2>
       <table>
         <thead>
         <tr>
@@ -53,10 +43,12 @@ function App() {
         </tr>
         </tbody>
       </table>
-      <hr/>
-      <h2>Youtube</h2>
+        <hr/>
+        {/*    */}
+        <h2>Youtube</h2>
       <a href="Youtube.html">список</a>
       <hr/>
+      {/*  */}
       <h2>связь со мной </h2>
       <form action="/">
         <label htmlFor="name">Ваше имя:</label>
