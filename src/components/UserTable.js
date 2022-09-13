@@ -2,20 +2,14 @@ import {Image} from "./Image";
 
 export const UserTable = () => {
     return (
-        <>
-            <table cellSpacing="15">
-                <tr>
-                    <td>
-                        <Image/>
-                    </td>
-                    <td>
-                        <h1>Максим Фёдоров 2</h1>
-                        <p><em>Я студент 1 курса <strong>магистратуры</strong></em></p>
-                        <p><em>Я учусь программировать</em></p>
-                    </td>
-                </tr>
-            </table>
-            <hr/>
-        </>
+        <div className="info">
+        <div className="container">
+            <Image/>
+            <h1>Максим Фёдоров 2</h1>
+            <p>Я студент 1 курса <strong>магистратуры</strong></p>
+            <p>Я учусь программировать</p>
+
+        </div>
+        </div>
     )
 }
