@@ -7,16 +7,23 @@ import {Youtube} from "./components/Youtube";
 import {ContactMe} from "./components/ContactMe";
 
 function App() {
-  return (
-    <div className="App">
-        <UserTable />
-        <Social/>
-        <Hobbies/>
-        <SwimmingExpierience/>
-        <Youtube/>
-        <ContactMe/>
-    </div>
-  );
+    return (<div>
+                            <div className="App">
+                                <div className="container">
+                                    <UserTable />
+                                    <Social/>
+                                    <Hobbies/>
+                                    <SwimmingExpierience/>
+                                    <Youtube/>
+                                </div>
+                                    <div className="box-model">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                            </div>
+            </div>
+    );
 }
-
 export default App;
