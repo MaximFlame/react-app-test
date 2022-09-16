@@ -17,6 +17,9 @@ function App() {
           <div className="contact">
             <ContactMe />
           </div>
+          <div className="position">
+            <div className="box"></div>
+          </div>
         </div>
       </div>
       <div style={{ marginBottom: 500 }}></div>

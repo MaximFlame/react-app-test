@@ -12,11 +12,10 @@ export const UserTable = () => {
         <p>Я учусь программировать</p>
         <h2>мои социальные сети</h2>
         <a href="https://web.telegram.org/z/#775139666" target="_blank">
-          Telegram
+          Telegram |
         </a>
-        |
         <a href="https://vk.com/flame_17" target="_blank">
-          в контакте
+          В контакте
         </a>
       </div>
     </div>

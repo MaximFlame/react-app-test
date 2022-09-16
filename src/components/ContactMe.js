@@ -17,7 +17,7 @@ export const ContactMe = () => {
           <label htmlFor="email">Ваше сообщение:</label>
           <textarea id="text" rows="2" cols="15"></textarea>
         </div>
-        <input type="submit" value="Связаться" />
+        <input className="btn" type="submit" value="Связаться" />
       </form>
     </>
   );
